@@ -27,6 +27,7 @@
 #include <string>
 #include <cstring>
 #include <map>
+#include <vector>
 
 #if ( defined( DEBUG_OCE ) && DEBUG_OCE > 3 )
 #include <wx/filename.h>
