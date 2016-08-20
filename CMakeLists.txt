@@ -288,13 +288,7 @@ add_custom_target( lib-dependencies )
 #
 find_package( GLM 0.9.5.1 REQUIRED )
 
-set( LIBS_OCE PTKernel TKBin TKBinL TKBinXCAF TKBO
-    TKBool TKBRep TKCAF TKCDF TKFeat TKFillet TKG2d TKG3d TKGeomAlgo
-    TKGeomBase TKHLR TKIGES TKLCAF TKMath TKMesh TKMeshVS TKOffset
-    TKPCAF TKPLCAF TKPrim TKPShape TKService TKShapeSchema TKShHealing
-    TKStdLSchema TKStdSchema TKSTEP TKSTEP209 TKSTEPAttr TKSTEPBase
-    TKSTL TKTopAlgo TKV3d TKVRML TKXCAF TKXCAFSchema TKXDEIGES
-    TKXDESTEP TKXml TKXmlL TKXmlXCAF TKXSBase TKernel )
+set( LIBS_OCE TKBinXCAF TKPCAF TKSTEP TKXDESTEP TKIGES TKXDEIGES )
 
 find_package( OCE 0.16 REQUIRED ${LIBS_OCE} )
 
