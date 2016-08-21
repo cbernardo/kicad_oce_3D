@@ -155,6 +155,10 @@ if( CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang" )
 
 endif( CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang" )
 
+if( MSVC )
+    add_definitions( -D_CRT_SECURE_NO_WARNINGS )
+endif( MSVC )
+
 
 #================================================
 # Locations for install targets.
