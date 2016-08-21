@@ -37,7 +37,7 @@
 
 #include <glm/glm.hpp>
 #include <glm/ext.hpp>
-#include <mm_malloc.h>
+#include <xmmintrin.h>
 
 typedef glm::uvec2  SFVEC2UI;
 typedef glm::ivec2  SFVEC2I;
