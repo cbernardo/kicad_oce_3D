@@ -31,7 +31,7 @@
 #ifndef IFSG_DEFS_H
 #define IFSG_DEFS_H
 
-#if defined(__MINGW32__) || defined( MSVC )
+#if defined(__MINGW32__) || defined( _MSC_VER )
     #define APIEXPORT __declspec(dllexport)
     #define APIIMPORT __declspec(dllimport)
     #define APILOCAL
